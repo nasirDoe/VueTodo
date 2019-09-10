@@ -69,7 +69,7 @@ export default {
         const response = await axios.post('http://localhost/todo/todo/move?id='+ id);
         this.todos.splice(this.todos.indexOf(id), 1)
         this.$Progress.finish();
-        this.load();
+        this.$router.push('/about');
       } catch (error) {
         console.log(error);
       }      
@@ -181,7 +181,7 @@ ul, ol {
     }
   }
   .fader-enter-active, .fader-leave-active {
-    transition: opacity .5s;
+    transition: opacity .3s;
   }
   .fader-enter, .fader-leave-to /* .fade-leave-active below version 2.1.8 */ {
     opacity: 0;
