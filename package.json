@@ -8,9 +8,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
+    "axios": "^0.19.0",
     "core-js": "^2.6.5",
+    "node-waves": "^0.7.6",
+    "nprogress": "^0.2.0",
     "vue": "^2.6.10",
-    "vue-router": "^3.0.3"
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.0.3",
+    "vue2-animate": "^2.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
