@@ -1,4 +1,15 @@
-# todos
+# todos with PHP MySql (Eloquent & Slim)
+# Create database in mysql
+db_todo
+# Create table
+Example: 
+tbl_todo (table name)
+Fields: id (int)
+        todo (varchar)
+        created_at(datetime)
+        updated_at(datetime)
+        move(enum('0', '1') 
+  
 
 ## Project setup
 ```
