@@ -1,6 +1,7 @@
-# todos
-
-# Create table Mysql
+# todos with PHP MySql (Eloquent & Slim)
+# Create database in mysql
+db_todo
+# Create table
 Example: 
 tbl_todo (table name)
 Fields: id (int)
